@@ -4,8 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Meu primeiro curriculo em formato de site :)">
-    <title>
-        Abias
-    </title>
+    <title>Abias</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="abias.jpg" alt="foto no espelho">
+        <nav class="cabecalho-dados">
+            <a class="cabecalho-dados-item" href="https://github.com/abiass">Github<a>
+            <a class="cabecalho-dados-item" href="instagram.com/abiasxz">Instagram</a>
+            <a class="cabecalho-dados-item"></a>
+        </nav>
+    </header>
+    <main class=""></main>
+    <footer class=""></footer>
+</body>
 </html>
