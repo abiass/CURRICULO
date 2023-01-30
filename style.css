@@ -9,7 +9,12 @@
 
 body {
     font-size: 100%;
-    background: linear-gradient(60.15deg, rgb(233, 54, 54), rgb(249, 252, 102));
+    background: linear-gradient(1deg, #4e54c8, #8f94fb);
+
+}
+
+header{
+
 }
 
 .cabecalho {
@@ -19,12 +24,13 @@ body {
     justify-content: flex-start;
     padding: 24px;
     gap: 5px;
+    
 
 }
 
 .cabecalho-imagem{
     display:flex;
-    border: 5px solid rgb(255, 201, 201);
+    border: 3px solid rgb(132, 190, 243);
     border-radius: 10px;
     justify-content: space-around;
 }
@@ -32,11 +38,12 @@ body {
 .cabecalho-dados {
     font-family: 'Anton', sans-serif;    
     font-weight: 100;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     display: flex; 
     flex-direction: column;
     gap: 1px;
+    border-radius: 100px;
 
 }
 
@@ -47,5 +54,31 @@ body {
 
 .instagram {
     color:white;
+
+}
+
+.conteudo-principal-escrito{
+    display:flex;
+    font-family: 'Anton', sans-serif;    
+    font-weight: 10;
+    font-size: 30px;
+    color: white;
+
+}
+
+.html{
+    display: flex;
+    flex-direction: column;
+}
+
+.css{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.js{
+    display: flex;
+    flex-direction: column;   
 
 }
